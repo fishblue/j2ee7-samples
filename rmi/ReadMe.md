@@ -7,3 +7,6 @@
 serviceImpl的时候要继承 **UnicastRemoteObject** 类，并添加序列号和构造函数
 ##Client##
 Naming.lookup();
+
+##解析##
+待添加

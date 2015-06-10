@@ -12,8 +12,7 @@ public class RemoteServiceImpl extends UnicastRemoteObject implements RemoteServ
 	 * 
 	 */
 	private static final long serialVersionUID = -5975899476054586317L;
-
-	public String responseMsg() {
+	public String responseMsg() throws RemoteException{
 		// TODO Auto-generated method stub
 		return "this is a string from remote server!";
 	}
